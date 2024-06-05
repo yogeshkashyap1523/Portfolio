@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh Kumar Kashyap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ede0f9e363.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1 class="logo"><span class="logoG">Y</span>ogesh Kumar Kashyap</h1>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <li><a href="Resume [ YOGESH ].pdf" class="btn_ btn__" download>Resume</a></li> 
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Data Analyst</p> -->
+                <h1>Hi, I'm <span>Yogesh Kumar Kashyap</span><br>from India.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src=1697546113450_About1.jpeg>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <!-- <p>Hello, My name is Yogesh Kumar Kashyap from India and I am a final year MCA student deeply passionate about computer science and data science, I'm committed to fostering growth and knowledge exchange. My journey embodies a relentless pursuit of expertise and a fervor for guiding others in their pursuit of excellence.</p> -->
+                    <p>Hello, My name is Yogesh Kumar Kashyap from India, a final-year Master of Computer Application student graduating in June 2024. Additionally, I've also undertaken projects in Data Analytics and Web Development. Outside of academics, I tutor computer science and seek opportunities to make a meaningful impact through technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('expriences')">Expriences</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C, C++, Java, Python, HTML, CSS, JavaScript</li>
+                            <li><span>Database</span><br>MySQL, Oracle, PostgreSQL</li>
+                            <li><span>IT Constructor</span><br>OS, DBMS, Git, GitHub, Node</li>
+                            <li><span>Script</span><br>Shell, Bash, JS</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="expriences">
+                        <ul>
+                            <li><span>Nov. 2023 - Jan. 2024</span><br>Wildlife Institute </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - June, 2024</span><br>MCA</li>
+                            <li><span>2022</span><br>BCA</li>
+                            <li><span>2019</span><br>12th</li>
+                            <li><span>2017</span><br>10th</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Find the insights from the data by analyse the dataset for the decision making. </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Designing and developing personalized and commercial websites tailored to meet individual and business needs, blending creativity with functionality for optimal online presence.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h2>Tuition</h2>
+                    <p>Empowering learners with personalized education experiences through tuition as a service, fostering continuous growth and mastery.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/compiler_2.png" alt="Image not found. Check your internet connection.">
+                    <div class="layer">
+                        <h3>Web Page Compiler</h3>
+                        <p>This is a real time web page compiler.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/dA.png" alt="Image not found. Check your internet connection.">
+                    <div class="layer">
+                        <h3>Student Exam Score Analysis</h3>
+                        <p>Analyze the student's exam score and find the relevent result for their improvement.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="Image not found. Check your internet connection.">
+                    <div class="layer">
+                        <h3>Cancer Prediction</h3>
+                        <p>Analysed the accuracy of data-sets related to Breast Cancer and Diabetes by using K- Nearest Neighbor (KNN), Naıve
+                            Bayes (NB), Decision Tree(DT), Artificial Neural Network (ANN) and Support Vector Machine (SVM) algorithms.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="" class="btn">See More</a>
+
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>free@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-99914125211</p>
+                    <div class="social-media-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-code"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Resume [ YOGESH ].pdf" class="btn btn2" download>Download Resume / CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="example@example.com" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your message." required></textarea>
+                        <button type="submit" class="btn btn2" id="submit_popUp" onclick="showPopup()">Submit</button>
+                    </form>
+
+                    <span id="form-msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyRight">
+            <p>Copyright &#169;. Made with <span>&#9829;</span> by Yogesh.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sideMenu");
+
+        function openMenu() {
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sideMenu.style.right = "-150px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.microsoft.com/macros/s/AKfycbxJrTch5tkZKHzyfNwk-cut6aOhDOgrLH9-IdVEaal5-6mPkFQkVCVXOftD6J4fEyadTAmayanksingh/exec'
+    const form = document.forms['submit-to-microsoft-sheet']
+  
+    const msg = document.getElementById("form-msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully."
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    function showPopup() {
+            // Get the value of the input field with id "name"
+            var name = document.getElementById("submit_popUp").value;
+
+            // Display a popup message with the entered name
+            alert("Thanks for submitting the form.");
+        }
+  </script>
+
+</body>
+</html>
